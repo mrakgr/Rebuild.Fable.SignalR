@@ -5,7 +5,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{2819AF
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
 		paket.lock = paket.lock
-		.paket\package.json = .paket\package.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A798F9EE-3F6C-4BAA-934E-DC784D7E73AC}"
@@ -25,6 +24,12 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.SignalR.Feliz", "src\Fable.SignalR.Feliz\Fable.SignalR.Feliz.fsproj", "{4D302538-F0AE-45B5-8E8E-39586314122A}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fable.SignalR.Saturn", "src\Fable.SignalR.Saturn\Fable.SignalR.Saturn.fsproj", "{E5E35149-550B-48EE-A78C-18FF41A65106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "npm", "npm", "{BCBA8C18-521A-4A3E-A206-CCC46E80264F}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		package-lock.json = package-lock.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
