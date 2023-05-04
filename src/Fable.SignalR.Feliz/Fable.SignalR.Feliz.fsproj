@@ -11,5 +11,10 @@
     <ItemGroup>
         <ProjectReference Include="..\Fable.SignalR\Fable.SignalR.fsproj"/>
     </ItemGroup>
+    <PropertyGroup>
+        <NpmDependencies>
+            <NpmPackage Name="@microsoft/signalr" Version="gte 7.0.5" ResolutionStrategy="max" />
+        </NpmDependencies>
+    </PropertyGroup>
     <Import Project="..\..\.paket\Paket.Restore.targets"/>
 </Project>
