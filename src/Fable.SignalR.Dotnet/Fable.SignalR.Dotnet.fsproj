@@ -6,9 +6,13 @@
     </PropertyGroup>
     <ItemGroup>
         <Content Include="paket.references"/>
-        <Compile Include="Types.fs"/>
-        <Compile Include="MemoryCache.fs"/>
-        <Compile Include="MsgPack.fs"/>
+        <Compile Include="Common.fs"/>
+        <Compile Include="HubConnection.fs"/>
+        <Compile Include="SignalR.fs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <ProjectReference Include="..\Fable.SignalR.Shared\Fable.SignalR.Shared.fsproj"/>
     </ItemGroup>
     <Import Project="..\..\.paket\Paket.Restore.targets"/>
 </Project>

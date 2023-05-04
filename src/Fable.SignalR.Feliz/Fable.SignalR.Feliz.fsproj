@@ -6,9 +6,10 @@
     </PropertyGroup>
     <ItemGroup>
         <Content Include="paket.references"/>
-        <Compile Include="Types.fs"/>
-        <Compile Include="MemoryCache.fs"/>
-        <Compile Include="MsgPack.fs"/>
+        <Compile Include="Feliz.fs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Fable.SignalR\Fable.SignalR.fsproj"/>
     </ItemGroup>
     <Import Project="..\..\.paket\Paket.Restore.targets"/>
 </Project>
