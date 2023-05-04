@@ -1,0 +1,19 @@
+{
+  "name": "fable.-signal-r",
+  "version": "0.11.5",
+  "description": "Fable and server bindings for SignalR.",
+  "homepage": "https://github.com/Shmew/Fable.SignalR",
+  "bugs": {
+    "url": "https://github.com/Shmew/Fable.SignalR/issues/new/choose"
+  },
+  "license": "MIT",
+  "author": "Cody Johnson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shmew/Fable.SignalR"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7"
+  },
+  "private": true
+}
