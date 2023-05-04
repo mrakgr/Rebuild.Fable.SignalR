@@ -1,9 +1,9 @@
 source https://api.nuget.org/v3/index.json
 storage: none
 
+nuget FSharp
 nuget Fable.Core
 nuget Fable.Remoting.Json
 nuget Fable.Remoting.MsgPack
-nuget FSharp.Core
 nuget Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson
 nuget Microsoft.IO.RecyclableMemoryStream

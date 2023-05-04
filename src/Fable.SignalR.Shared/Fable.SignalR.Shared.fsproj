@@ -10,5 +10,5 @@
     <Compile Include="MemoryCache.fs" />
     <Compile Include="MsgPack.fs" />
   </ItemGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

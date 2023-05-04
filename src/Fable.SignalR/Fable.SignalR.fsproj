@@ -13,8 +13,5 @@
     <Compile Include="Protocols.fs" />
     <Compile Include="SignalR.fs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Remove="C:\Users\Marko\.nuget\packages\fable.core\4.0.0\contentFiles\any\netstandard2.0\RELEASE_NOTES.md" />
-  </ItemGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
