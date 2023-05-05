@@ -9,8 +9,7 @@
         <Compile Include="Elmish.fs"/>
     </ItemGroup>
     <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
-        <ProjectReference Include="..\Fable.SignalR.Shared\Fable.SignalR.Shared.fsproj"/>
+        <ProjectReference Include="..\Fable.SignalR.DotNet\Fable.SignalR.DotNet.fsproj" />
     </ItemGroup>
     <Import Project="..\..\.paket\Paket.Restore.targets"/>
 </Project>

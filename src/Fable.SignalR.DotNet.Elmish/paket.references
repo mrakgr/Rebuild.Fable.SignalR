@@ -1,3 +1,4 @@
 Fable.Remoting.Json
 Microsoft.AspNetCore.SignalR.Client
 Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson
+Elmish
