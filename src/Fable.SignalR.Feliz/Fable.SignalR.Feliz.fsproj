@@ -3,18 +3,19 @@
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>Rebuild.Fable.SignalR.Feliz</PackageId>
     </PropertyGroup>
     <ItemGroup>
-        <Content Include="paket.references"/>
-        <Compile Include="Feliz.fs"/>
+        <Content Include="paket.references" />
+        <Compile Include="Feliz.fs" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Fable.SignalR\Fable.SignalR.fsproj"/>
+        <ProjectReference Include="..\Fable.SignalR\Fable.SignalR.fsproj" />
     </ItemGroup>
     <PropertyGroup>
         <NpmDependencies>
             <NpmPackage Name="@microsoft/signalr" Version="gte 7.0.5" ResolutionStrategy="max" />
         </NpmDependencies>
     </PropertyGroup>
-    <Import Project="..\..\.paket\Paket.Restore.targets"/>
+    <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
